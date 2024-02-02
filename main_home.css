@@ -1,0 +1,77 @@
+/* Style for the navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title h1 {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.navbar-dropdown select {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar-dropdown select option {
+    background-color: #333;
+    color: white;
+}
+
+.search-bar {
+    padding: 5px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the post feed */
+.post-feed {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style for individual posts */
+.post {
+    border: 1px solid #1f2833;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.post img {
+    vertical-align: middle;
+}
+
+.content {
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+/* Define the container to hold the three parts */
+.container {
+    background: transparent;
+    display: flex;
+    height: 100vh; /* Set the container height to 100% of the viewport height */
+}
+
+/* Style the first part (15% left column) */
+.left-column {
+    flex: 0 0 15%; /* Set the left column to be 15% of the container width */
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: #8a8585;
+}
+
+/* Style the second part (right column) */
+.right-column {
+    background: transparent;
+    flex: 1; /* The right column takes up the remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the first row in the right column (10% height) */
+.right-row1 {
+    flex: 0 0 10%;
+    background-color: #4a4343;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* Style the second row in the right column (90% height) */
+.right-row2 {
+    flex: 1;
+    background: transparent;
+    padding-left: 20px;
+}
+
+.post {
+    color: rgb(0, 0, 0);
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    width: 75%;
+    padding: 20px;
+    backdrop-filter:blur(7px);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #aaa;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.post-image {
+    float: right;
+    max-height: 220px;
+}
+
+.post-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-button, .comment-button, .share-button {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post-description {
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-top: 5px;
+}

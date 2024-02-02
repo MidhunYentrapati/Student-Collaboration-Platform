@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c6c7;
+}
+
+
+header {
+    background-color: #1f2833;
+    color: #66fcf1;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 10px;
+    color: #66fcf1;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #66fcf1;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#reg_butt {
+    border: 2px solid #66fcf1;
+    background-color: #45a29e;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+}
+
+#reg_butt:hover {
+    background-color: #66fcf1;
+    border: 2px solid #45a29e;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: calc(30vh - 10px); /* Makes the container take the full viewport height */
+}
+
+.item1 {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 img {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    height:82vh;
+    width:100vh;
+    
+}
+
+.item2{
+    padding-top: 5%;
+}
+
+.item2 {
+    color: #fff;
+    flex: 1;
+    padding-left: 100px;
+    align-items: center;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #1f2833;
+    border-bottom:1px solid #696565;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.427);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type='email'],
+input[type='password'],input[type='text'] {
+  width: 60%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #696565;
+  padding: 10px;
+  color: black;
+  font-size: 14px;
+  margin-top: 5px;
+  background-color: #fff;
+  
+}
+
+#reg-link{
+    color: #66fcf1;
+}
+
+
+

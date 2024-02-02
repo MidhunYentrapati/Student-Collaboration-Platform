@@ -1,0 +1,68 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #330066; /* Lavender background color */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency for neon effect */
+    color: #00ff00; /* Neon green text color */
+    font-weight: bold;
+    border: 3px solid #00ff00; /* Neon green border */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Neon box-shadow */
+}
+
+.form input[type='text'],
+.form input[type='password'] {
+    width: 200px;
+    border-radius: 25px; /* Rounded input fields */
+    border: 2px solid #00ff00; /* Neon green border for input fields */
+    padding: 10px;
+    color: #00ff00; /* Neon green text color for input fields */
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: transparent; /* Transparent background */
+    outline: none; /* Remove input field outline */
+    text-align: center; /* Centered text */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.form input[type='text']:focus,
+.form input[type='password']:focus {
+    background-color: rgba(0, 255, 0, 0.2); /* Light green background on focus */
+}
+
+.form input[type='submit'] {
+    padding: 15px 30px; /* Larger button padding */
+    color: #fff;
+    background-color: #00ff00; /* Neon green background for the submit button */
+    text-shadow: rgba(0, 255, 0, 0.24) 0 1px 0;
+    font-size: 18px;
+    border: 2px solid #00ff00; /* Neon green border for the submit button */
+    border-radius: 25px; /* Rounded button */
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.form input[type='submit']:hover {
+    background-color: #33ff33; /* Lighter green for hover effect */
+}

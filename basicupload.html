@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include your CSS stylesheet here -->
+    <!--link rel="stylesheet" href="upload.css"-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Project Details</title>
+</head>
+<body>
+    <h1>Upload Project Details</h1>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <!-- About Block -->
+        <h2>About</h2>
+        <textarea id="about" name="about" rows="4" cols="50" required></textarea>
+
+        <!-- Tech Stack Block -->
+        <h2>Tech Stack</h2>
+        <input type="text" id="tech_stack" name="tech_stack" required>
+
+        <!-- Features Block -->
+        <h2>Features</h2>
+        <input type="text" id="features" name="features" required>
+
+        <!-- How to Run the Project Block -->
+        <h2>How to Run the Project</h2>
+        <textarea id="how_to_run" name="how_to_run" rows="4" cols="50" required></textarea>
+
+        <!-- Download File Block -->
+        <h2>Download File</h2>
+        <input type="file" id="project_file" name="project_file" required>
+
+        <!-- Project Preview Block -->
+        <h2>Project Preview</h2>
+        <input type="file" id="project_images" name="project_images[]" multiple required>
+        <!-- Allow multiple image uploads -->
+
+        <!-- Extra Description Block -->
+        <h2>Extra Description</h2>
+        <textarea id="extra_description" name="extra_description" rows="4" cols="50"></textarea>
+
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

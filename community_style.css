@@ -1,0 +1,102 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#c5c6c7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #1f2833;
+    color: #66fcf1;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Community grid styles */
+/* Add this CSS to create a grid layout */
+.community-grid {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the minmax value to control the card width */
+    gap: 20px; /* Adjust the gap between cards */
+}
+
+.community-card {
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid #000000; /* Add a border to the cards */
+    border-radius: 1rem;
+    padding: 20px; /* Add padding to the cards */
+    text-align: center;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.427);
+}
+
+/* Adjust card styles as needed */
+.community-card img {
+    width: 200px;
+    height: 150px;
+    padding-bottom: 50px;
+}
+
+.community-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.community-card:hover {
+    background-color: #fff;
+}
+
+.community-card p {
+    font-size: 14px;
+}
+
+.community-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.community-card a:hover {
+    color: #0056b3;
+}
+
+/* Load more button styles */
+.load-more {
+    text-align: center;
+    padding: 20px;
+}
+
+.load-more button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.load-more button:hover {
+    background-color: #0056b3;
+}

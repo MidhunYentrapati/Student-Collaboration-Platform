@@ -1,0 +1,96 @@
+/* Style for the main container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style for project details */
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+p {
+    color: #555;
+    font-size: 14px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Style for individual blocks */
+.block {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+/* Style for the "Read More" button */
+.read-more {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the download link */
+a.download-link {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.download-link:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the image scroll container */
+.image-scroll {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.image-scroll img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

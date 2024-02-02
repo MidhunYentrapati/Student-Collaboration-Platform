@@ -1,0 +1,129 @@
+/* Reset some default styles */
+
+
+body{
+    min-height:100vh;
+    min-width: 100vh;
+    background-color: #c5c6c7;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Set a background image with fixed dimensions */
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the background image behind other content */
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Adjust the opacity for a subtle background effect */
+}
+
+/* Style the profile container */
+.profile-section {
+    position: relative;
+    background-color: #1f2833;
+    color: #66fcf1;
+    border: 1px inset white;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for a subtle elevation effect */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.profile h1 {
+    font-size: 24px;
+    color: #333; /* Text color */
+}
+
+.profile p {
+    font-size: 18px;
+    color: #555; /* Text color */
+    margin-bottom: 10px;
+}
+
+/* Style the logout link */
+.profile a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #630473; /* Blue background color */
+    color: #8c0000; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.profile a:hover {
+    background-color: #9205ab; /* Darker blue color on hover */
+}
+/* Style the post button */
+.post-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Change the background color as needed */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.post-button:hover {
+    background-color: #66fcf1; /* Change the hover background color as needed */
+}
+
+/* Style the Font Awesome icon inside the button */
+.post-button i {
+    margin-left: 5px; /* Add some spacing between text and icon */
+}
+
+
+header {
+    background-color: #1f2833;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #66fcf1;
+}
+
+img{
+    padding-top: 20px;
+    padding-left: 50px;
+}
